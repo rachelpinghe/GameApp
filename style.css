@@ -1,0 +1,70 @@
+h1 {
+    color: purple; /*set the color*/
+    text-align:center; /*make title in the center*/
+}
+h1::first-letter {
+    color: #fe0aa2; /*makes the first letter the color after the hover effect*/
+}
+h1:hover {
+    color:#fe0aa2; /*create hover effect for title*/
+}
+h2 {
+    text-align:center; 
+}
+h3 {
+    text-align:center;
+}
+a:hover {
+    color:rgb(96, 19, 92) /*create hover effect for anchor*/
+}
+h4 {
+    text-align:center;
+    color: rgb(91, 4, 113);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: -32px; /*place the list slightly leftward from center for aesthetics*/
+    list-style-type: lower-roman;
+}
+p::first-line {
+    text-align:center;
+    font-family: sans-serif; /*changes the font*/
+    color: blueviolet;
+}
+p {
+    text-align: center;
+}
+h3::first-line {
+    font-style: italic;
+    background-color: aquamarine;
+}
+table {
+    width: 50%; /*make the table size smaller*/
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+table tr:nth-child(odd) {
+    background-color: #f5e83a;
+}
+
+table tr:nth-child(even) {
+    background-color: #f5f1a7; /*create different colors for alternating rows*/
+}
+img {
+    border: 2px solid black;
+    margin: 10px; /*set border and margin for all images*/
+}
+body {
+    background-image: url("bkg.jpg");
+    background-size: cover; /*set background image that fills the background*/
+    background-repeat: no-repeat;
+}
+table caption {
+    background-color: #f5f1a7 /*highlight the caption of the table*/
+}
